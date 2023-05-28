@@ -1,0 +1,51 @@
+{% load static %}
+<!-- Navbar -->
+<nav class="navbar navbar-main navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 border-radius-xl z-index-sticky blur shadow-blur left-auto">
+    <div class="container-fluid">
+      <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " href="/index/">
+        <img src="{% static 'img/logo/AnalytiCorp_logomarca_min.png' %}" alt="logo-marca">
+      </a>
+      <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon mt-2">
+          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar2"></span>
+          <span class="navbar-toggler-bar bar3"></span>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
+        <ul class="navbar-nav navbar-nav-hover mx-auto">
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a  href="/about/" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center">
+              About
+            </a>
+          </li>
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a  href="/automation/" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center">
+              Automation
+            </a>
+          </li>
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a  href="/analyze/" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center">
+              Analyze
+            </a>
+          </li>
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a  href="/security/" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center">
+              Security
+            </a>
+          </li>
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a  href="" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center">
+              Blog
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav d-lg-block d-none">
+          <li class="nav-item">
+            <a href="#Contect" class="btn btn-sm  bg-gradient-primary  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
