@@ -722,7 +722,7 @@ progress {
   .container-md,
   .container-lg,
   .container-xl {
-    max-width: 1140px;
+    max-width: 1313px;
   }
 }
 
@@ -20932,7 +20932,7 @@ fieldset:disabled .btn {
 
 .card .card-body {
   font-family: "Open Sans";
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .card.card-plain {
@@ -21048,7 +21048,7 @@ fieldset:disabled .btn {
 }
 
 .card.card-background.card-background-mask-info:after {
-  background-image: linear-gradient(310deg, #2152ff 0%, #21d4fd 100%);
+  background-image: linear-gradient(310deg, #E25309  0%, #E25309 100%);
   opacity: .85;
 }
 
@@ -21736,7 +21736,7 @@ label,
 }
 
 .bg-gradient-primary {
-  background-image: linear-gradient(310deg, #b2e605 0%, #E25309 100%);
+  background-image: linear-gradient(310deg, #b2e605 0%, #b2e605 100%);
 }
 
 .bg-gradient-secondary {

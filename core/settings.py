@@ -125,3 +125,13 @@ STATIC_ROOT = '/static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# settings.py
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.mailgun.org'  # ou outro servidor SMTP do seu provedor
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'corp.analyti@gmail.com'  # substitua pelo seu e-mail de domínio Mailgun
+EMAIL_HOST_PASSWORD = 'pubkey-80525b4eae1fc56edd0fdaca57566558'  # substitua pela chave da API do Mailgun
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'corp.analyti@gmail.com'  # substitua pelo seu e-mail de domínio Mailgun
+

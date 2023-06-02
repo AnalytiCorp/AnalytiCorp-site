@@ -1,0 +1,166 @@
+{% extends 'main.html' %}
+
+{% load static %}
+
+{% block titulo %}
+  Página inicial
+{% endblock %}
+
+{% block conteudo %}
+<div class="row" style="margin-top: 40px;">
+    <div class="container-fluid my-3 py-3 col-lg-8 col-12">
+      <div class="row">
+        <div class="col-lg-12 col-lg-8">
+          <div class="card">
+            <div class="card-header d-flex align-items-center border-bottom py-3">
+              <div class="d-flex align-items-center">
+                <div class="mx-3">
+                  <a href="javascript:;" class="text-dark font-weight mb-0 mt-2 up text-center"><h3>🎓 Domine a Próxima Geração de Tecnologias 🎓 <br> Curso de Sistemas Multiagentes em Python com Machine Learning e Blockchain! </h3></a>
+                  <!-- <small class="d-block text-muted">3 days ago</small> -->
+                </div>
+              </div>
+             
+            </div>
+            <div class="card-body">
+              <p class="mb-4">
+                Prepare-se para entrar em um novo mundo de possibilidades com nosso curso especializado em Sistemas Multiagentes em Python, impulsionados por Machine Learning e Blockchain. Esteja à frente da curva e domine as tecnologias revolucionárias que estão moldando o futuro!
+
+                <br><br>🌟 O que você vai aprender:
+
+                <br><br>✅ Fundamentos de Sistemas Multiagentes: Desenvolva uma compreensão sólida dos conceitos e princípios subjacentes aos sistemas multiagentes. Explore arquiteturas, comunicação entre agentes, coordenação e colaboração em um ambiente multiagente.
+
+                <br><br>✅ Machine Learning Avançado: Aprenda a aplicar técnicas de machine learning para treinar e aprimorar agentes inteligentes. Descubra como utilizar algoritmos de aprendizado de máquina para tomar decisões inteligentes e adaptativas em cenários complexos.
+
+                <br><br>✅ Integração de Blockchain: Descubra o poder da tecnologia blockchain e como ela pode ser aplicada em sistemas multiagentes. Explore conceitos-chave, como contratos inteligentes e transações seguras, para criar soluções confiáveis e transparentes.
+
+                <br><br>✅ Desenvolvimento Prático em Python: Adquira habilidades sólidas em Python para implementar sistemas multiagentes. Através de exemplos práticos e projetos hands-on, você desenvolverá suas capacidades de programação e se tornará um especialista em Python.
+
+                <br><br>✅ Estudos de Caso do Mundo Real: Analise casos de uso reais em diferentes setores, como finanças, logística e atendimento ao cliente. Compreenda como as aplicações de sistemas multiagentes em Python, Machine Learning e Blockchain estão revolucionando esses setores.
+
+                <br><br>🚀 Impulsione sua carreira e esteja preparado para as demandas do futuro. Aprenda com nossa equipe de instrutores experientes, que trazem conhecimentos aprofundados e experiência prática em sistemas multiagentes, machine learning e blockchain.
+
+                <br><br>💼 Seja você um desenvolvedor, cientista de dados ou profissional em busca de aprimoramento, este curso é perfeito para expandir seu conjunto de habilidades e se destacar no mercado.
+
+                <br><br>📞 Inscreva-se agora mesmo no nosso curso de Sistemas Multiagentes em Python com Machine Learning e Blockchain e mergulhe no mundo emocionante das tecnologias de ponta! Não perca a oportunidade de impulsionar sua carreira e moldar o futuro com suas habilidades.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card position-sticky top-1">
+        <div class="col-lg-12 col-12">
+          <div class="card card-background card-background-mask-info h-100 tilt" data-tilt="" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
+            <div class="full-background" style="background-image: url('{% static 'img/curved-images/white-curved.jpeg' %})"></div>
+            <div class="card-body pt-4 text-center"  style="margin-top: 60px;">
+              <a href="/index#contact" class="btn btn-sm mb-4 bg-gradient-primary  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')">Contact</a>
+              <div class="col-lg-12 text-center" style="">
+                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=554891726681" target="_blank" class="text-success me-xl-4 me-4">
+                  <span class="text-lg fab fa-whatsapp"></span>
+                </a>
+                <a href="https://www.instagram.com/analytic_corp/" target="_blank" class="text-success me-xl-4 me-4">
+                  <span class="text-lg fab fa-twitter"></span>
+                </a>
+                <a href="https://www.instagram.com/analytic_corp/" target="_blank" class="text-success me-xl-4 me-4">
+                  <span class="text-lg fab fa-instagram"></span>
+                </a>
+                <a href="https://www.instagram.com/analytic_corp/" target="_blank" class="text-success me-xl-4 me-4">
+                  <span class="text-lg fab fa-pinterest"></span>
+                </a>
+                <a href="https://github.com/AnalytiCorp" target="_blank" class="text-success me-xl-4 me-4">
+                  <span class="text-lg fab fa-github"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="row">
+    <div class="card-group" style="margin-top: 40px;">
+
+      <div class="col-lg-4 mb-4">
+        <div class="card mx-1">
+          <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
+            <a href="/analyze" class="d-block">
+              <img src="{% static 'img/home-decor-1.jpg' %}" class="img-fluid border-radius-lg">
+            </a>
+          </div>
+
+          <div class="card-body pt-2">
+            <span class="text-gradient text-primary text-uppercase text-xs font-weight-bold my-2">House</span>
+            <a href="/analyze" class="card-title h5 d-block text-darker">
+              Consultoria em estratégia de negócios e automação
+            </a>
+            <p class="card-description mb-4">
+              Aprimore sua estratégia de negócios e conquiste o sucesso com nossa Consultoria em Estratégia de Negócios. Nossa equipe de especialistas oferece insights estratégicos personalizados, orientação especializada e soluções sob medida para enfrentar os desafios do seu setor. Transforme obstáculos em oportunidades brilhantes e alcance novos patamares de crescimento. Entre em contato conosco hoje mesmo!
+            </p>
+
+            <a href="/analyze" class="btn btn-icon bg-gradient-primary d-lg-block mt-3 mb-0">
+              Saiba Mais
+              <i class="fas fa-arrow-right ms-1" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4">
+        <div class="card mx-1">
+          <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
+            <a href="/automation" class="d-block">
+              <img src="{% static 'img/home-decor-1.jpg' %}" class="img-fluid border-radius-lg">
+            </a>
+          </div>
+
+          <div class="card-body pt-2">
+            <span class="text-gradient text-primary text-uppercase text-xs font-weight-bold my-2">House</span>
+            <a href="/automation" class="card-title h5 d-block text-darker">
+              Desenvolvimento personalizado de soluções de automação
+            </a>
+            <p class="card-description mb-4">
+              Automatize e otimize seus processos de negócios com nossa expertise em Desenvolvimento Personalizado de Soluções de Automação. Utilizando tecnologias de ponta, como machine learning, blockchain e sistemas multiagentes BDI, criamos soluções sob medida para impulsionar sua eficiência e produtividade. Libere o potencial do seu negócio com automação inteligente. Contate-nos agora mesmo!
+            </p>
+
+            <a href="/automation" class="btn btn-icon bg-gradient-primary d-lg-block mt-3 mb-0">
+              Saiba Mais
+              <i class="fas fa-arrow-right ms-1" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4">
+        <div class="card mx-1">
+          <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
+            <a href="/security" class="d-block">
+              <img src="{% static 'img/home-decor-1.jpg' %}" class="img-fluid border-radius-lg">
+            </a>
+          </div>
+
+          <div class="card-body pt-2">
+            <span class="text-gradient text-primary text-uppercase text-xs font-weight-bold my-2">House</span>
+            <a href="/security" class="card-title h5 d-block text-darker">
+              Criação de modelos preditivos personalizados
+            </a>
+            <p class="card-description mb-4">
+              Descubra o poder dos dados com nossos Modelos Preditivos Personalizados. Utilizando técnicas avançadas de machine learning, desenvolvemos modelos sob medida. Preveja tendências, comportamentos do cliente e tome decisões embasadas em dados sólidos. Desbloqueie insights valiosos e conquiste uma vantagem competitiva. Entre em contato conosco e abrace o futuro dos negócios!
+            </p>
+
+            <a href="/security" class="btn btn-icon bg-gradient-primary d-lg-block mt-3 mb-0">
+              Saiba Mais
+              <i class="fas fa-arrow-right ms-1" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+{% endblock %}
